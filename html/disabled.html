@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="../images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/disabled.css">
+    <title>Disabled</title>
+</head>
+<body>
+    <section class="full-container">
+        <nav>
+            <div class="logo-align">
+            <img src="../images/logo.png" alt="logo" class="logo">
+            <p class="logo-txt">CARE NEXUS</p>
+            </div> 
+            <ul>
+              <li><a href="./index.html">HOME</a></li>
+              <li><a href="./aboutus.html">ABOUT</a></li>
+              <li><a href="./index.html#service-id">SERVICES</a></li>
+            </ul>
+            <div class="profile-align">
+            <img src="../images/profile-logo.png" alt="profile" class="profile-logo" onclick="toggleMenu()">
+            <p class="profile-txt">Neha Aryal</p>
+            </div>
+        </nav>
+
+        <div class="submenu-wrap" id="subMenu" >
+            <div class="submenu">
+                <div class="userinfo">
+                    <h2><a href="">My Details</a></h2>
+                    <h2><a href="">Settings</a></h2>
+                    <h2><a href="">Log Out</a></h2>
+                </div>
+            </div>
+        </div>
+ 
+<!-- main portion -->
+    <section class="main">
+        <div class="maps-info">
+            <img src="../images/google-maps-img.png" alt="" class="google-mapsImg">
+            <h1>Set Your Location</h1>
+            <p>Please set your location to help us find you.</p>
+        </div>
+        <div class="vertical-divider"></div>
+
+        <div class="location-detail">
+            <h1 class="location-header">Set Your Location</h1>
+            <label for="locationDropdown" class="locationDropdown">Location</label>
+            <select id="locationDropdown">
+                <option value="Putalisadak">Putalisadak</option>
+                <option value="Anamnagar">Anamnagar</option>
+                <option value="Attarkhel">Attarkhel</option>
+                <option value="Baglung">Baglung</option>
+                <option value="Besisahar">Besisahar</option>
+                <option value="Balaju">Balaju</option>
+                <option value="Bhairahawa">Bhairahawa</option>
+                <option value="Bhalwari">Bhalwari</option>
+                <option value="Biratnagar">Biratnagar</option>
+                <option value="Birgunj">Birgunj</option>
+                <option value="Birtamod">Birtamod</option>
+                <option value="Butwal">Butwal</option>
+                <option value="Chabahil">Chabahil</option>
+                <option value="Chandragadhi">Chandragadhi</option>
+                <option value="Charikot">Charikot</option>
+                <option value="Damak">Damak</option>
+                <option value="Damauli">Damauli</option>
+                <option value="Dhangadhi">Dhangadhi</option>
+                <option value="Dhapashi">Dhapashi</option>
+                <option value="Dharan">Dharan</option>
+                <option value="Dhulikhel">Dhulikhel</option>
+                <option value="Ghorahi">Ghorahi</option>
+                <option value="Gorkha">Gorkha</option>
+                <option value="Gwarko">Gwarko</option>
+                <option value="Halchowk">Halchowk</option>
+                <option value="Hetauda">Hetauda</option>
+                <option value="Itahari">Itahari</option>
+                <option value="Janakpur">Janakpur</option>
+                <option value="Orpati">Orpati</option>
+                <option value="Kantipath">Kantipath</option>
+                <option value="Kaushaltar">Kaushaltar</option>
+                <option value="Khandbari">Khandbari</option>
+                <option value="Kohalpur">Kohalpur</option>
+                <option value="Kuleshwor">Kuleshwor</option>
+                <option value="Lalitpur">Lalitpur</option>
+                <option value="Maharajgunj">Maharajgunj</option>
+                <option value="Mahendranagar">Mahendranagar</option>
+                <option value="Maitidevi">Maitidevi</option>
+                <option value="Narayangadh">Narayangadh</option>
+                <option value="Nepalgunj">Nepalgunj</option>
+                <option value="New Baneswor">New Baneswor</option>
+                <option value="New Road">New Road</option>
+                <option value="Pokhara">Pokhara</option>
+                <option value="Pokhara Lakeside">Pokhara Lakeside</option>
+                <option value="Powerhouse Chowk">Powerhouse Chowk</option>
+                <option value="Satdobato">Satdobato</option>
+                <option value="Simara">Simara</option>
+                <option value="Sinamangal">Sinamangal</option>
+                <option value="Sunwal">Sunwal</option>
+                <option value="Teendhara">Teendhara</option>
+                <option value="Thamel">Thamel</option>
+                <option value="Tripureshwore">Tripureshwore</option>
+                <option value="Tulsipur">Tulsipur</option>
+            </select>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.918708025984!2d-122.08467218424022!3d37.42199947980929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f9fcf5b2ef959%3A0x71f3b8f5685fbd17!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1638239380796!5m2!1sen!2sus" width="550" height="250" style="border:0; border-radius:5px;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="choose-date-time">
+                    <label for="chooseDate">Choose Date</label>
+                    <input type="date" id="chooseDate">
+                </div>
+         <br>  
+                 <div class="choosetime">
+                    <label for="chooseTime">Choose Time</label>
+                    <input type="time" id="chooseTime">
+                </div>
+                <button class="confirm">Confirm</button>
+        </div>
+    </section>
+</section>
+
+   
+<!-- footer portion -->
+<footer class="site-footer">
+  <div class="footer-logo">
+    <img src="../images/logo.png" alt="" class="logo" />
+    <h4 class="footer-logo-text">CARE NEXUS</h4>
+    <h6 class="copyright">&copy 2024, All rights reserved</h6>
+  </div>
+
+  <div class="quick-link">
+    <h2>Quick Links</h2>
+    <ul>
+      <li><a href="#home-id">Home</a></li>
+      <li><a href="../html/aboutus.html">About</a></li>
+      <li><a href="#service-id">Service</a></li>
+      <li><a href="#donate-id">Donate Here</a></li>
+    </ul>
+  </div>
+
+  <div class="social-media">
+    <h2>Social Media</h2>
+    <div class="fb">
+      <img
+        src="../images/facebook.png"
+        alt="facebook"
+        class="icons-footer"
+      />
+      <a
+        href="https://www.facebook.com/"
+        target="_blank"
+        style="text-decoration: none; color: white"
+        ><p>CareNexus</p></a
+      >
+    </div>
+    <div class="twt">
+      <img src="../images/twitter.png" alt="twitter" class="icons-footer" />
+      <a
+        href="https://twitter.com/"
+        target="_blank"
+        style="text-decoration: none; color: white"
+        ><p>CareNexus</p></a
+      >
+    </div>
+    <div class="insta">
+      <img
+        src="../images/instagram-5.png"
+        alt="instagram"
+        class="icons-footer"
+      />
+      <a
+        href="https://www.instagram.com/"
+        target="_blank"
+        style="text-decoration: none; color: white"
+        ><p>CareNexus</p></a
+      >
+    </div>
+  </div>
+
+  <div class="get-in-touch">
+    <h2>Get In Touch</h2>
+    <div class="phone-number">
+      <img src="../images/phone-call.png" alt="" class="icons-footer" />
+      <p>977-9836452728</p>
+    </div>
+    <div class="location">
+      <img src="../images/location.png" alt="" class="icons-footer" />
+      <p>Dhobidhara, Kathmandu</p>
+    </div>
+    <div class="mail">
+      <img src="../images/mail.png" alt="" class="icons-footer" />
+      <p>carenexus@gmail.com</p>
+    </div>
+  </div>
+</footer>
+    <script src="../javascript/disabled.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement(
+            { pageLanguage: "en" },
+            "google_translate_element"
+          );
+        }
+      </script>
+  
+      <script
+        type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+      ></script>
+</body>
+</html>

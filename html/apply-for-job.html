@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/logo.png">
+    <link rel="stylesheet" href="../css/appy-for-job.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Apply for job</title>
+</head>
+<body>
+    <section class="full-container"> 
+        <nav>
+            <div class="logo-align">
+            <img src="../images/logo.png" alt="logo" class="logo">
+            <p class="logo-txt">CARE NEXUS</p>
+            </div>
+            <ul>
+                <li><a href="./home.html#home-id">HOME</a></li>
+                <li><a href="../html/aboutus.html">ABOUT</a></li>
+                <li><a href="./home.html#service-id">SERVICES</a></li>
+            </ul>
+            <div class="profile-align">
+            <img src="../images/profile-logo.png" alt="profile" class="profile-logo" onclick="toggleMenu()">
+            <p class="profile-txt">Neha Aryal</p>
+            </div>
+        </nav>
+
+        <div class="submenu-wrap" id="subMenu" >
+            <div class="submenu">
+                <div class="userinfo">
+                    <h2><a href="">My Details</a></h2>
+                    <h2><a href="">Settings</a></h2>
+                    <h2><a href="">Log Out</a></h2>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- main poriton -->
+<section class="main">
+    <div class="first-half">
+        <h1>Employee Application Form</h1>
+        <p>Apply now to provide services</p>
+
+        <div class="form">
+            <form action="">
+                <div class="grouping">
+                    <label for="first-name">
+                        <input type="text" class= 'for-group' placeholder="First Name">
+                    </label>
+                    <label for="last-name">
+                        <input type="text" class='for-group' placeholder="Last Name">
+                    </label>
+                </div>
+                <label for="email">
+                    <input type="email" placeholder="Email" class="for-email">
+                </label>
+                <br>
+                <label for="phone">
+                    <input type="text" placeholder="Phone No." class="for-phone">
+                </label>
+            </form>
+            <div class="postion">
+                <label for="care" class="care-text">Position you are applying for:-</label>
+                <select name="care" class="care">
+                    <option value="disabled" selected>Disabled Care</option>
+                    <option value="medical">Medical Care</option>
+                    <option value="mental">Mental Health Care</option>
+                    <option value="elderly">Elderly Care</option>
+                    <option value="child">Child Care</option>
+                    <option value="Companionship">Medical Care</option>
+                    <option value="Transportaion">Mental Health Care</option>
+                    <option value="Household work">Elderly Care</option>
+                    <option value="Educational Support">Child Care</option>
+                </select>
+                <button class="select-btn">Select Application</button>
+            </div>
+        </div>
+    </div>
+    <div class="second-half">
+        <div class="upload-cv">
+            <img src="../images/cv-icon.png" alt="cv-icon" class="cv-icon-img"> 
+            <input type="file" name="cvFile" id="cvFile" accept=".pdf, .doc, .docx" class="for-cv">
+            <button class="upload-cv-btn" onclick="return checkFileSize()">Upload Your CV</button>
+            <p>Drop your CV here or choose a file <br>
+                PDF & DOCX only. Max 2MB file size 
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- footer portion -->
+<footer class="site-footer">
+    <div class="footer-logo">
+      <img src="../images/logo.png" alt="" class="logo" />
+      <h4 class="footer-logo-text">CARE NEXUS</h4>
+      <h6 class="copyright">&copy 2024, All rights reserved</h6>
+    </div>
+
+    <div class="quick-link">
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./aboutus.html">ABOUT</a></li>
+        <li><a href="./index.html#service-id">SERVICES</a></li>
+      </ul>
+    </div>
+
+    <div class="social-media">
+      <h2>Social Media</h2>
+      <div class="fb">
+        <img
+          src="../images/facebook.png"
+          alt="facebook"
+          class="icons-footer"
+        />
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          style="text-decoration: none; color: white"
+          ><p>CareNexus</p></a
+        >
+      </div>
+      <div class="twt">
+        <img src="../images/twitter.png" alt="twitter" class="icons-footer" />
+        <a
+          href="https://twitter.com/"
+          target="_blank"
+          style="text-decoration: none; color: white"
+          ><p>CareNexus</p></a
+        >
+      </div>
+      <div class="insta">
+        <img
+          src="../images/instagram-5.png"
+          alt="instagram"
+          class="icons-footer"
+        />
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          style="text-decoration: none; color: white"
+          ><p>CareNexus</p></a
+        >
+      </div>
+    </div>
+
+    <div class="get-in-touch">
+      <h2>Get In Touch</h2>
+      <div class="phone-number">
+        <img src="../images/phone-call.png" alt="" class="icons-footer" />
+        <p>977-9836452728</p>
+      </div>
+      <div class="location">
+        <img src="../images/location.png" alt="" class="icons-footer" />
+        <p>Dhobidhara, Kathmandu</p>
+      </div>
+      <div class="mail">
+        <img src="../images/mail.png" alt="" class="icons-footer" />
+        <p>carenexus@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+ <script src="../javascript/apply-for-job.js"></script>
+ <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement(
+        { pageLanguage: "en" },
+        "google_translate_element"
+      );
+    }
+  </script>
+
+  <script
+    type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+  ></script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* username icon */
+
+.material-symbols-outlined {
+  font-variation-settings: "color" black, "FILL" 0, "wght" 400, "GRAD" 0,
+    "opsz" 24;
+}
+
+/* body{ 
+  background: #CAF1FF;
+} */
+
+/* styling navbar */
+.for-logo {
+  position: relative;
+  left: 50px;
+  bottom: 5px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+.logo-desc {
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  right: 14px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  top: 30px;
+  border-bottom: 0.2px solid black;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding-top: 20px;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  /* bottom: 64px; */
+  right: 50px;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li a {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  margin-right: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  padding: 8px;
+  transition: 300ms ease-in-out;
+  border-radius: 12px;
+}
+.navbar li a:hover {
+  background: rgb(168, 166, 166);
+  color: #181818;
+  border-radius: 12px;
+}
+
+/* starting with full container */
+.full-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+/* first half */
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dbf5ff;
+  bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  border-radius: 30px;
+  margin-left: 12vw;
+  height: 80vh;
+  
+}
+
+.form-section {
+  text-align: center;
+  position: relative;
+  width: 40vw;
+}
+
+.form-header {
+  font-family: "Poly", serif;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+}
+
+.actual-form {
+  display: flex;
+  margin-left: 9vw;
+  flex-direction: column;
+}
+
+.actual-form label {
+  display: flex;
+  align-items: baseline;
+  width: 300px;
+  border-bottom: 1px solid black;
+  border-bottom-width: 3px;
+  margin: 2px;
+}
+
+.actual-form input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 8px;
+}
+
+.actual-form input::placeholder {
+  font-size: 16px;
+  color: black;
+}
+
+.material-symbols-outlined {
+  position: relative;
+  top: 5px;
+}
+
+.sign-up-btn {
+  font-size: 20px;
+  margin-top: 40px;
+  background: #181818;
+  color: white;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border-radius: 12px;
+  transition: transform 300ms ease-in-out;
+}
+.sign-up-btn:hover {
+  transform: translateY(-8px);
+  color: #ecf0f1;
+  background: #222223;
+  border: none;
+  cursor: pointer;
+}
+.goto-login {
+  margin-top: 10px;
+  margin-right: 110px;
+}
+.goto-login a {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  transition: 200ms ease-in-out;
+}
+
+.goto-login a:hover {
+  font-weight: 500;
+}
+
+/* second half */
+.img-section {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nursing-img {
+  width: 510px;
+  height: 510px;
+  transform: scaleX(-1);
+  position: relative;
+  bottom: 30px;
+  right: 58px;
+}
+
+/* hover effect for a tag */
+
+.nav-items li a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: -2px;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #1f1f1f;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-items li a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.togglePassword {
+  position: relative;
+  right: 25px;
+}
+
+label {
+  position: relative;
+}
+
+label input {
+  width: 100%; /* Adjust the width as needed */
+}

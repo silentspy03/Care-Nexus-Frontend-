@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" href="../images/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/sign-up.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <!-- navigation -->
+    <section class="nav-section">
+      <nav class="navbar">
+        <div class="for-logo">
+          <figure>
+            <img src="../images/logo.png" alt="CARE-NEXUS" class="logo" />
+            <p class="logo-desc">CARE NEXUS</p>
+          </figure>
+        </div>
+        <div class="nav-start" id="home-id">
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./aboutus.html">ABOUT</a></li>
+            <li><a href="./index.html#service-id">SERVICES</a></li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <section class="full-container">
+      <!-- first half -->
+      <section class="form">
+        <div class="form-section">
+          <h1 class="form-header">CREATE ACCOUNT</h1>
+
+          <form action="" class="actual-form">
+            <label for="username">
+              <span class="material-symbols-outlined person-icon">person</span>
+              <!--for username-->
+              <input
+                type="text"
+                placeholder="Your Name"
+                class="form-username"
+                id="username"
+              />
+            </label>
+
+            <label for="email">
+              <span class="material-symbols-outlined mail-icon">mail</span>
+              <!--for email-->
+              <input
+                type="email"
+                placeholder="Email"
+                class="form-email"
+                id="email"
+              />
+            </label>
+
+            <label for="password">
+              <span class="material-symbols-outlined lock-icon">lock</span>
+              <!--for password-->
+              <input type="password" placeholder="Password" id="password" />
+              <i class="far fa-eye togglePassword" data-target="password"></i>
+            </label>
+
+            <label for="re-password">
+              <span class="material-symbols-outlined lock-icon">lock</span>
+              <!--for confirm password-->
+              <input
+                type="password"
+                placeholder="Confirm Password"
+                id="confirm-password"
+              />
+              <i
+                class="far fa-eye togglePassword"
+                data-target="confirm-password"
+              ></i>
+            </label>
+
+            <label for="phone">
+              <span class="material-symbols-outlined phone-icon">call</span>
+              <input type="phone" placeholder="Phone Number" id="number" />
+            </label>
+            <button class="sign-up-btn" id="signUpBtn">Sign up</button>
+            <!--for sign up button-->
+            <p class="goto-login">
+              <a href="../html/login.html">Already have an account? Login</a>
+            </p>
+          </form>
+        </div>
+      </section>
+
+      <!-- second half -->
+      <section class="img-section">
+        <figure>
+          <img src="../images/nursing.png" alt="" class="nursing-img" />
+        </figure>
+      </section>
+    </section>
+    <script src="../javascript/sign-up.js"></script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: "en" },
+          "google_translate_element"
+        );
+      }
+    </script>
+
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
+  </body>
+</html>
